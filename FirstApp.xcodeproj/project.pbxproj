@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3F944D22B2C632C00D10E6B /* ByeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F944D12B2C632C00D10E6B /* ByeView.swift */; };
 		A3FA655C2B2B5E080097DD15 /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA655B2B2B5E080097DD15 /* FirstAppApp.swift */; };
 		A3FA655E2B2B5E080097DD15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA655D2B2B5E080097DD15 /* ContentView.swift */; };
 		A3FA65602B2B5E0A0097DD15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FA655F2B2B5E0A0097DD15 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A3F944D12B2C632C00D10E6B /* ByeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByeView.swift; sourceTree = "<group>"; };
 		A3FA65582B2B5E080097DD15 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3FA655B2B2B5E080097DD15 /* FirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppApp.swift; sourceTree = "<group>"; };
 		A3FA655D2B2B5E080097DD15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				A3FA655B2B2B5E080097DD15 /* FirstAppApp.swift */,
 				A3FA655D2B2B5E080097DD15 /* ContentView.swift */,
+				A3F944D12B2C632C00D10E6B /* ByeView.swift */,
 				A3FA655F2B2B5E0A0097DD15 /* Assets.xcassets */,
 				A3FA65642B2B5E0A0097DD15 /* FirstApp.entitlements */,
 				A3FA65612B2B5E0A0097DD15 /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				A3FA655E2B2B5E080097DD15 /* ContentView.swift in Sources */,
 				A3FA655C2B2B5E080097DD15 /* FirstAppApp.swift in Sources */,
+				A3F944D22B2C632C00D10E6B /* ByeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +275,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FirstApp/FirstApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -287,6 +292,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sina.FirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -298,6 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FirstApp/FirstApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -314,6 +321,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sina.FirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
